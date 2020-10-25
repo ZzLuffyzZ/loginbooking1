@@ -22,7 +22,7 @@
 
         <input id="se" type="email" placeholder="Email" required />
         <input id="sp" type="password" placeholder="Password" required />
-        <input id="submit-login" type="submit" onclick="login()" value="Submit" />
+        <input id="submit-login" type="submit" onclick="validateLogin()" value="Submit" />
 
         <p onclick="forTabFun()">Forget Password?</p>
       </div>
@@ -39,13 +39,13 @@
           Bằng việc nhấn vào nút Xác nhận bên dưới, tức là bạn đã đọc và chấp
           nhận các điều khoản và quy định của
         </div>
-        <input id="submit-reg" type="button" onclick="register()" value="Xác nhận" />
+        <input id="submit-reg" type="button" onclick="validateRegiter()" value="Xác nhận" />
       </div>
       <div id="forgot" class="comm">
         <h3>Forgot Password</h3>
         <div>
           <input id="fe" type="email" placeholder="Email" required />
-          <input id="submit-f" type="button" onclick="forgot()" value="Submit" />
+          <input id="submit-f" type="button" onclick="validateForgot()" value="Submit" />
         </div>
       </div>
     </div>
